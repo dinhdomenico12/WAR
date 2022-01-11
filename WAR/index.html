@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <h1 class="warTitle">WAR</h1> 
+    <div class="gameGrid" id="gameGrid">
+        <div id="player1" class="player1">
+            <div id="nCounter1" class="nCounter1">
+                <h2 class="firstPlayer" id="firstPlayer"> player 1: <span class="player1T" id="player1T"> </span></h2>
+            </div>
+        </div>
+        <div>
+            <h3 id="Turn" class="Turn"> player turn</h3>
+        </div> 
+        <div id="player2" class="player2">
+            <div id="ncounter2" class="nCounter2">
+                <h2 class="secondPlayer" id="secondPlayer">player 2: <span class="player2T" id="player2T"></span></h2>
+            </div>
+        </div> 
+        <div>
+            <img id="card1" class="card1" src="photos/ornateBack.jpeg">
+        </div>    
+        <div id="resetButton" class="resetButton"><button class="resetButton">Reset!</button> </div>
+        <div>
+            <img id="card2" class="card2" src="photos/ornateBack.jpeg">
+        </div>  
+        <div id="cTotal1" class="cTotal1">
+            <h2 class="cardTotal1">Card total:  <span class="totalValue1" id="totalValue1"> </span></h2> 
+        </div>  
+        
+        <div id="total2" class="empty2"><p class="empty2"> </p></div>
+        <div id="cTotal2" class="cTotal2">
+            <h2 class="cardTotal2">Card Total: <span class="totalValue2" id="totalValue2"></span>
+            </h2> 
+        </div>
+        
+    </div>
+
+<script src="script/script.js"></script>
+</body>
+</html>

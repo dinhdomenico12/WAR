@@ -1,0 +1,71 @@
+*;*::before,*::after {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+}
+
+.resetButton{
+    margin: 0 auto;  
+    
+}
+
+.warTitle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: gold;
+}
+
+.gameGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.nCounter1{
+    text-align: center;
+    color: goldenrod;
+}
+
+.nCounter2{
+    text-align: center;
+    color: goldenrod;
+}
+
+.Turn{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: goldenrod;
+}
+
+.inputName2 {
+    display: flex;
+    margin: 0 auto;
+}
+
+.card1 { 
+    display: flex;
+    margin: 0 auto;
+}
+
+.card2 {
+    display: flex;
+    margin: 0 auto;
+}
+
+.cTotal1 {
+    text-align: center;
+    color:  burlywood;
+}
+
+.cTotal2{
+    text-align: center;
+    color: burlywood;
+}
+
+img{
+    width: 150px;
+}
